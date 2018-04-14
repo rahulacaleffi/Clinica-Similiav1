@@ -1,0 +1,9 @@
+##### LOCAWEB - NAO REMOVER #####
+AddHandler php56-script .php
+suPHP_ConfigPath /home/clinicasimilia/
+Options +FollowSymlinks 
+RewriteEngine On 
+RewriteRule ^$ public/ [L] 
+RewriteRule (.*) public/$1 [L] 
+##### LOCAWEB - NAO REMOVER #####
+
