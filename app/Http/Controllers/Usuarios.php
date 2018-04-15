@@ -16,7 +16,7 @@ class Usuarios extends Controller{
 	public function salvar(CreateUsuarioRequest $request){
 		$usuario = new Usuario;
 		$usuario->nome = $request->input("nome");
-		$usuario->senha = $request->input("senha", rand(1, 1000));
+		$usuario->senha = $request->input("password", rand(1, 1000));
 		$usuario->email = $request->input("email");
 		$usuario->telefone = $request->input("telefone");
 		$usuario->endereco = $request->input("endereco");

@@ -14,6 +14,11 @@ header("Access-Control-Allow-Origin: *");
 <body>
 	@include('templates.header')
 
+	<script src="<?= asset('app/lib/angular/angular.min.js') ?>"></script>
+    <script src="<?= asset('js/dist/angular/angular-br-filters.min.js') ?>"></script>
+    <script src="<?= asset('js/dist/angular/angular-input-masks-standalone.min.js') ?>"></script>
+    <script src="<?= asset('app/app.js') ?>"></script>
+    <script src="<?= asset('app/controllers/cadastrar_usuario.js') ?>"></script>
     @include('templates.navbar')
   <div class="page-wrapper">
 

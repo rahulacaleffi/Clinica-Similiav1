@@ -49,16 +49,16 @@ class RegisterController extends Controller
     {
         return Validator::make($data, [
             'nome' => 'required|max:255',
-            'senha' => 'required|min:6|confirmed',
+            'password' => 'required|min:6|confirmed',
             'email' => 'email|required|max:255|unique:tbUsuario',
             'telefone' => 'required|max:15',
             'endereco' => 'max:255'],
             ['nome.required'  => 'O nome é obrigatório',
             'nome.max'  => 'Este nome é muito grande, abrevie-o',
-            'senha.required'  => 'A senha é obrigatória',
-            'senha.min'  => 'Esta senha é muito curta (Deve conter pelo menos 6 dígitos)',
-            'senha.unique'  => 'Esta senha já está em uso',
-            'senha.confirmed'  => 'As senhas não coincidem',
+            'password.required'  => 'A password é obrigatória',
+            'password.min'  => 'Esta password é muito curta (Deve conter pelo menos 6 dígitos)',
+            'password.unique'  => 'Esta password já está em uso',
+            'password.confirmed'  => 'As passwords não coincidem',
             'email.email'  => 'Este não é um endereco de e-mail válido',
             'email.required'  => 'O e-mail é obrigatório',
             'email.max'  => 'Este e-mail é muito longo, utilize outro',
@@ -79,7 +79,7 @@ class RegisterController extends Controller
     {
         return Usuario::create([
             'nome' => $data['nome'],
-            'senha' => bcrypt($data['senha']),
+            'senha' => bcrypt($data['password']),
             'email' => $data['email'],
             'telefone' => $data['telefone'],
             'endereco' => $data['endereco']
