@@ -63,8 +63,7 @@ Route::get('/ambulatorio', function () {
     return view('ambulatorio/index');
 });
 
-Route::post("/api/v1/colaboradores/criarInteiro", "Colaboradores@criarInteiro");
-Route::post("/api/v1/colaboradores/salvar", "Colaboradores@salvar");
+Route::post("/api/v1/usuarios/salvar", "Usuarios@salvar");
 
 Auth::routes();
 

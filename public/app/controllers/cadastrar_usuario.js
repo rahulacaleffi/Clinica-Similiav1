@@ -1,8 +1,8 @@
-app.controller('cadastrarColaboradorController',function($scope, $http, API_URL) {
+app.controller('cadastrarUsuarioController',function($scope, $http, API_URL) {
 
     $scope.save = function() {
-        if($scope.colaborador == null){
-            $scope.colaborador = {};
+        if($scope.usuario == null){
+            $scope.usuario = {};
         }
 
         $(".content-group").each(function (){
@@ -13,11 +13,11 @@ app.controller('cadastrarColaboradorController',function($scope, $http, API_URL)
         $http({
             method: 'POST',
             url: API_URL + "colaboradores/criarInteiro",
-            data: { nome: $scope.colaborador.nome, telefone: $scope.colaborador.telefone, email: $scope.colaborador.email, endereco: $scope.colaborador.endereco, crx_tipo: $scope.colaborador.crx_tipo, crx_numero: $scope.colaborador.crx_numero, ambulatorio: $scope.colaborador.ambulatorio, wwr: $scope.colaborador.wwr, casosmensais: $scope.colaborador.casosmensais, metododasensacao : $scope.colaborador.metododasensacao, macreprw : $scope.colaborador.macreprw, contribuicao : $scope.colaborador.contribuicao },
+            data: { nome: $scope.usuario.nome, telefone: $scope.usuario.telefone, email: $scope.usuario.email, endereco: $scope.usuario.endereco, senha: $scope.usuario.senha, senha_confirmation: $scope.usuario.senha_confirmation },
             headers: {'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*' },
         }).then(function successCallback(response) {
-            $('#formColaborador').trigger("reset");
-            $scope.colaborador = {};
+            $('#formUsuario').trigger("reset");
+            $scope.usuario = {};
             showConfirmationMessage();
         }, function errorCallback(response) {
             if(response.status == 422){
@@ -42,7 +42,7 @@ app.controller('cadastrarColaboradorController',function($scope, $http, API_URL)
         BootstrapDialog.show({
             type:  BootstrapDialog.TYPE_SUCCESS,
             title: 'Confirmação de Inscrição',
-            message: '<div class="text-center">Muito obrigado, ' + $scope.colaborador.nome +', por tornar-se um colaborador da <b>Clínica Similia</b>.<br>Para efetuar o pagamento e concluir a inscrição, entre em contato com o número de telefone para cursos: <span href="https://api.whatsapp.com/send?phone=5541991770301" target="_blank" class="mobile-only"><b>(41) 99177-0501</b></span>.</div>',
+            message: '<div class="text-center">Muito obrigado, ' + $scope.usuario.nome +', por tornar-se um Usuario da <b>Clínica Similia</b>.<br>Para efetuar o pagamento e concluir a inscrição, entre em contato com o número de telefone para cursos: <span href="https://api.whatsapp.com/send?phone=5541991770301" target="_blank" class="mobile-only"><b>(41) 99177-0501</b></span>.</div>',
             cssClass: 'verify',
             buttons: [{
                 label: 'OK',
