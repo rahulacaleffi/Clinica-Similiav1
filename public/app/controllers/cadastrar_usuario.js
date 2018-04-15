@@ -13,7 +13,7 @@ app.controller('cadastrarUsuarioController',function($scope, $http, API_URL) {
         $http({
             method: 'POST',
             url: API_URL + "colaboradores/criarInteiro",
-            data: { nome: $scope.usuario.nome, telefone: $scope.usuario.telefone, email: $scope.usuario.email, endereco: $scope.usuario.endereco, senha: $scope.usuario.senha, senha_confirmation: $scope.usuario.senha_confirmation },
+            data: { nome: $scope.usuario.nome, telefone: $scope.usuario.telefone, email: $scope.usuario.email, endereco: $scope.usuario.endereco, password: $scope.usuario.senha, password_confirmation: $scope.usuario.senha_confirmation },
             headers: {'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*' },
         }).then(function successCallback(response) {
             $('#formUsuario').trigger("reset");

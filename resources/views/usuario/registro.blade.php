@@ -47,10 +47,10 @@ header("Access-Control-Allow-Origin: *");
 							<input type="email" ng-model="usuario.email" id="email" name="email" placeholder="E-mail">
 						</div>
 						<div class="form-group">
-							<input type="password" id="senha" ng-model="usuario.senha" name="senha" placeholder="Senha">
+							<input type="password" id="password" ng-model="usuario.senha" name="password" placeholder="Senha">
 						</div>
 						<div class="form-group">
-							<input type="password" ng-model="usuario.senha_confirmation" name="senha_confirmation" placeholder="Confirmar senha">
+							<input type="password" ng-model="usuario.senha_confirmation" id="password_confirmation" name="password_confirmation" placeholder="Confirmar senha">
 						</div>
 						<div class="form-group text-center">
 							<button type="submit" class="btn-style-one">Registrar-se</button>
