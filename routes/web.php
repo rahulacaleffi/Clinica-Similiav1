@@ -65,3 +65,7 @@ Route::get('/ambulatorio', function () {
 
 Route::post("/api/v1/colaboradores/criarInteiro", "Colaboradores@criarInteiro");
 Route::post("/api/v1/colaboradores/salvar", "Colaboradores@salvar");
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
