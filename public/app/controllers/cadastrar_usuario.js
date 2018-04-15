@@ -12,9 +12,9 @@ app.controller('cadastrarUsuarioController',function($scope, $http, API_URL) {
 
         $http({
             method: 'POST',
-            url: API_URL + "colaboradores/criarInteiro",
+            url:  "/register",
             data: { nome: $scope.usuario.nome, telefone: $scope.usuario.telefone, email: $scope.usuario.email, endereco: $scope.usuario.endereco, password: $scope.usuario.senha, password_confirmation: $scope.usuario.senha_confirmation },
-            headers: {'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*' },
+            headers: {'Content-Type': 'application/json'},
         }).then(function successCallback(response) {
             $('#formUsuario').trigger("reset");
             $scope.usuario = {};

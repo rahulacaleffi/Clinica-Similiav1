@@ -63,8 +63,6 @@ Route::get('/ambulatorio', function () {
     return view('ambulatorio/index');
 });
 
-Route::post("/api/v1/usuarios/salvar", "Usuarios@salvar");
-
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
