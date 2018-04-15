@@ -27,6 +27,7 @@ header("Access-Control-Allow-Origin: *");
 				<legend class="withoutborder">Preencha os campos abaixo</legend>
 			</div>
 			<form name="formUsuario" id="formUsuario" class="default-form contact-form" method="post" ng-submit="save()">
+				{{ csrf_field() }}
 				<div class="row">
 					<div class="col-md-6 col-sm-12 col-xs-12">
 						<div class="form-group">
