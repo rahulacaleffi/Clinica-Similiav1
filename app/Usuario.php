@@ -25,6 +25,10 @@ class Usuario extends Authenticatable
      */
     protected $hidden = array('senha', 'remember_token');
 
+    public function getAuthPassword()
+    {
+        return $this->senha;
+    }
     public function aluno()
     {
         return $this->hasOne('App\Aluno');
