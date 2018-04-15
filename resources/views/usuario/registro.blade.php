@@ -27,30 +27,30 @@ header("Access-Control-Allow-Origin: *");
 				<legend class="withoutborder">Preencha os campos abaixo</legend>
 				
 			</div>
-			<form name="contact_form" class="default-form contact-form" action="sendmail.php" method="post">
+			<form name="contact_form" class="default-form contact-form" method="post">
 				<div class="row">
 					<div class="col-md-6 col-sm-12 col-xs-12">
 						<div class="form-group">
-							<input type="text" name="nome" placeholder="Nome" required="" maxlength="150">
+							<input ng-model="usuario." type="text" name="nome" placeholder="Nome">
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-12 col-xs-12">
 						<div class="form-group">
-							<input type="text" name="tel" placeholder="Telefone" required="" maxlength="13">
+							<input type="text" name="tel" placeholder="Telefone">
 						</div>
 					</div>
 					<div class="col-md-12 col-sm-12 col-xs-12">
 						<div class="form-group">
-							<input type="text" name="endereco" placeholder="Endereço Completo" required="" maxlength="255">
+							<input type="text" name="endereco" placeholder="Endereço Completo" >
 						</div>
 						<div class="form-group">
-							<input type="email" name="email" placeholder="E-mail" required="" maxlength="255">
+							<input type="email" name="email" placeholder="E-mail">
 						</div>
 						<div class="form-group">
-							<input type="password" name="senha" placeholder="Senha" required="" maxlength="50">
+							<input type="password" name="senha" placeholder="Senha">
 						</div>
 						<div class="form-group">
-							<input type="password" name="senha" placeholder="Confirmar senha" required="" maxlength="50">
+							<input type="password" name="senha" placeholder="Confirmar senha">
 						</div>
 						<div class="form-group text-center">
 							<button type="submit" class="btn-style-one">Registrar-se</button>
