@@ -213,6 +213,7 @@ ul.dropdown-menu{
 
 .dropdown-menu > li > a{
   padding: 15px 15px !important;
+  background: white;
 }
 
 .dropdown-menu > li{
