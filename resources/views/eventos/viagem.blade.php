@@ -5,7 +5,7 @@
     @include('templates.head')
 
     <style type="text/css">
-        span {
+        .story span {
             font-size: 18px !important;
         }
         .fa-usd {
