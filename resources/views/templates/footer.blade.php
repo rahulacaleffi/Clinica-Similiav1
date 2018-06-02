@@ -23,8 +23,11 @@
 							</li>
 							<li class="item">
 								<i style="color:white" class="fa fa-whatsapp" aria-hidden="true"></i>
-								<p style="color:white">Consultas: <span href="https://api.whatsapp.com/send?phone=5541988336975" target="_blank" class="mobile-only"><b>(41) 98833-6975</b></span></p>
-								<p style="color:white">Cursos: <span href="https://api.whatsapp.com/send?phone=5541991770301" target="_blank" class="mobile-only"><b>(41) 99177-0301</b></span></p>
+								<p style="color:white">Consultas:<br>
+									<span>Dr. Carlos: <span href="https://api.whatsapp.com/send?phone=5541988336975" target="_blank" class="mobile-only">(41) 98833-6975</span><br></span>
+									<span>Dr. Diogo: <span href="https://api.whatsapp.com/send?phone=5541997007334" target="_blank" class="mobile-only">(41) 99700-7334</span><br></span>
+								</p>
+								<p style="color:white">Cursos: <span href="https://api.whatsapp.com/send?phone=5541991770301" target="_blank" class="mobile-only">(41) 99177-0301</span></p>
 							</li>
 						</ul>
 					</div>

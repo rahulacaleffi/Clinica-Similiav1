@@ -29,50 +29,42 @@
 
   <div class="container">
     <div class="row">
-      <div class="col-md-12 col-sm-12 col-xs-12">
-    <div class="logo col-sm-3 col-md-3 col-xs-3" align="center">
-                  <figure style="float: right">
-                    <a href="/">
-                      <img src="<?= asset('images/logo.png') ?>" width="180">
-                    </a>
-                  </figure>
+      <div class="col-md-12 col-sm-12 col-xs-12" style="text-align: center">
+        <div class="col-md-3 col-sm-12 col-xs-12">
+          <figure>
+            <a href="/">
+              <img src="<?= asset('images/logo.png') ?>" width="180">
+            </a>
+          </figure>
+        </div>
+        <div class="col-md-6 col-sm-6 col-xs-12">
+          <div class="contact-info">
+            <div class="col-md-6 col-sm-12 col-xs-12 item">
+              <strong>Telefone</strong>
+              <br>
+              <span href="tel:4130150501" class="mobile-only"><b>(41) 3015-0501</b></span>
             </div>
-            <div class="col-sm-6 col-md-6 col-xs-6" align="center">
-                  <ul class="contact-info" style="float: none">
-                        <li class="item">
-                              <div class="icon-box">
-                                <i class="fa fa-phone"></i>
-                              </div>
-                              <strong>Telefone</strong>
-                              <br>
-                              <span href="tel:4130150501" class="mobile-only"><b>(41) 3015-0501<b></span>
-                        </li>
-                        <li class="item">
-                              <div class="icon-box">
-                                <i class="fa fa-whatsapp"></i>
-                              </div>
-                              <strong>WhastApp</strong>
-                              <br>
-                              Consultas: <span href="https://api.whatsapp.com/send?phone=5541988336975" target="_blank" class="mobile-only"><b>(41) 98833-6975</b></span>
-                              <br>
-                              Cursos: <span href="https://api.whatsapp.com/send?phone=5541991770301" target="_blank" class="mobile-only"><b>(41) 99177-0301</b></span>
-                        </li>
-                  </ul>
-                  
+            <div class="col-md-6 col-sm-12 col-xs-12 item">
+              <strong>WhastApp</strong>
+              <br>
+              <b>
+              Consultas:<br>
+              Dr. Carlos: <span href="https://api.whatsapp.com/send?phone=5541988336975" target="_blank" class="mobile-only"><b>(41) 98833-6975</b></span><br>
+              Dr. Diogo: <span href="https://api.whatsapp.com/send?phone=5541997007334" target="_blank" class="mobile-only"><b>(41) 99700-7334</b></span><br>
+              Cursos: <span href="https://api.whatsapp.com/send?phone=5541991770301" target="_blank" class="mobile-only"><b>(41) 99177-0301</b></span>
+              </b>
             </div>
-            <div class="col-sm-3 col-md-3 col-xs-3" align="center">
-              <div class="col-md-12" style="padding: 3px;">
-                  <div class="link-btn" style="float: left;">
-                        <a href="/colaborador/" class="btn-style-one">Seja um colaborador</a>
-                  </div>
-              </div>
-              <div class="col-md-12" style="padding: 3px;">
-                  <div class="link-btn" style="float: left;">
-                        <a href="/usuario/" class="btn-style-one">Entrar/Registrar-se</a>
-                  </div>
-              </div>
-            </div>
-            </div>
-            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12" align="center">
+          <div class="col-md-12 link-btn" style="padding: 3px;">
+            <a href="/colaborador/" class="btn-style-one" style="width: 100%;">Seja um colaborador</a>
+          </div>
+          <div class="col-md-12 link-btn" style="padding: 3px;">
+            <a href="/usuario/" class="btn-style-one" style="width: 100%;">Fazer login ou cadastro</a>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </section>

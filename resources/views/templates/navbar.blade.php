@@ -11,7 +11,7 @@
 		</div>
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav">
-				<li class="active">
+				<li>
 					<a href="/">Início</a>
 				</li>
 				<li>
@@ -40,7 +40,16 @@
 						<li class="drop">
 							<a href="/cursos/casosmensais" style="color: #00502e">Casos mensais com Dr. Sankaran</a>
 						</li>
-
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Eventos
+						<span class="caret"></span>
+					</a>
+					<ul class="dropdown-menu">
+						<li class="drop">
+							<a href="/eventos/viagem" style="color: #00502e">Viagem à Índia</a>
+						</li>
 					</ul>
 				</li>
 				<li>

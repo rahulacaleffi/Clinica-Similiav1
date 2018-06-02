@@ -45,6 +45,11 @@ Route::prefix('/colaborador')->group(function () {
 	    return view('colaborador/cadastro');
 	});
 });
+Route::prefix('/eventos')->group(function () {
+    Route::get('/viagem', function () {
+        return view('eventos/viagem');
+    });
+});
 Route::prefix('/usuario')->group(function () {
     Route::get('/', function () {
         return view('usuario/index');
