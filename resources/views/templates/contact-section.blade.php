@@ -19,13 +19,13 @@
 								</div>
 								<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
 									<div class="panel-body item">
-										<i class="fa fa-phone" style="font-size: 1.5em"></i><span href="tel:(41)3015-0501" class="mobile-only" style="padding-left: 5px;">(41) 3015-0501</span><br><br>
+										<i class="fa fa-phone" style="font-size: 1.5em"></i><span href="tel:4130150501" class="mobile-only" style="padding-left: 5px;">(41) 3015-0501</span><br><br>
 										<span>
 										<i class="fa fa-whatsapp" style="font-size: 1.5em"></i>
 											Consultas:<br>
 											<span style="padding-left: 25px;">Dr. Carlos: <span href="https://api.whatsapp.com/send?phone=5541988336975" target="_blank" class="mobile-only">(41) 98833-6975</span><br></span>
 											<span style="padding-left: 25px;">Dr. Diogo: <span href="https://api.whatsapp.com/send?phone=5541997007334" target="_blank" class="mobile-only">(41) 99700-7334</span><br></span>
-											<span style="padding-left: 25px;">Cursos: <span href="https://api.whatsapp.com/send?phone=5541991770301" target="_blank" class="mobile-only">(41) 99177-0301</span></span>
+											<span style="padding-left: 25px;">Cursos: <span href="https://api.whatsapp.com/send?phone=5541991770501" target="_blank" class="mobile-only">(41) 99177-0501</span></span>
 										</span>
 										<br><br>
 										<i class="fa fa-map" style="font-size: 1.5em"></i><span style="padding-left: 5px;">Avenida Visconde de Guarapuava, 5500 - Batel, Curitiba/PR</span>

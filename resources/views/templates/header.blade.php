@@ -51,7 +51,7 @@
               Consultas:<br>
               Dr. Carlos: <span href="https://api.whatsapp.com/send?phone=5541988336975" target="_blank" class="mobile-only"><b>(41) 98833-6975</b></span><br>
               Dr. Diogo: <span href="https://api.whatsapp.com/send?phone=5541997007334" target="_blank" class="mobile-only"><b>(41) 99700-7334</b></span><br>
-              Cursos: <span href="https://api.whatsapp.com/send?phone=5541991770301" target="_blank" class="mobile-only"><b>(41) 99177-0301</b></span>
+              Cursos: <span href="https://api.whatsapp.com/send?phone=5541991770501" target="_blank" class="mobile-only"><b>(41) 99177-0501</b></span>
               </b>
             </div>
           </div>
